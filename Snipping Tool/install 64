@@ -50,3 +50,4 @@ wget -O Snipping-Tool_arm64.deb https://github.com/P-EO/Snipping-Tool/releases/d
 sudo apt install ./Snipping-Tool_arm64.deb -yf || error 'Failed to install Snipping-Tool'
 rm -f Snipping-Tool_arm64.deb
 
+echo "Installed Snipping Tool"
